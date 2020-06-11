@@ -56,7 +56,7 @@
     </div>
           </div>
   </header>
-    <iframe class="twitch" src="https://player.twitch.tv/?channel=abitofchiptune"></iframe><br>
+    <iframe src="https://player.twitch.tv/?channel=abitofchiptune&parent=infnitelives.abitofchiptune.com" /><br>
     <div id="donate"><a href="https://streamlabs.com/abitofchiptune/tip" target="blank"><img  src="img/donating-website.png" /></a></div>
     <div id="schedule" class="schedule">
 
@@ -152,6 +152,14 @@ All of these groups are based both in and around Chiptune. </p>
 
 
       <script src="./js/index.js" charset="utf-8"></script>
+      <script type="text/javascript">
+     new Twitch.Embed("twitch-embed", {
+       width: 828,
+       height: 424,
+       channel: "abitofchiptune",
+       // only needed if your site is also embedded on embed.example.com and othersite.example.com
+     });
+   </script>
   </body>
 
 </html>
