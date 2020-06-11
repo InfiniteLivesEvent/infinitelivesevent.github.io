@@ -19,6 +19,7 @@
 iframe {
   display: none;
 }
+
 .main {
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
@@ -26,6 +27,9 @@ iframe {
 
 }
 
+#donate {
+  display:none;
+}
 
 body {
     background-image: url("../img/header.png");
